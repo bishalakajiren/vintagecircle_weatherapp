@@ -2,7 +2,7 @@
 
 This is a simple weather application built with Angular that allows users to search for the current weather and forecast for a location.
 
-## Setup
+# Setup
 
 To run this project locally, follow these steps:
 
@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
      ```bash
      ng serve;
 
-## Architecture
+# Architecture
 
 This project follows a basic Angular architecture, consisting of components, services, and modules.
 
@@ -39,11 +39,11 @@ This project follows a basic Angular architecture, consisting of components, ser
 4.   `ForecastComponents`:Main component that serves as the container for other components.
 
 
-# Services
+## Services
 
 1.   `WeatherapiService`:Service for fetching weather data from the WeatherAPI.
     
-# Modules
+## Modules
 
 1.   `AppModule`:Root module that declares and imports all components and services used in the app.
 
