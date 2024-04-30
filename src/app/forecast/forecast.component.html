@@ -1,0 +1,15 @@
+<div *ngIf="forecast" class="forecast-container">
+    <h2>3-Day Forecast</h2>
+    <div class="forecast-days">
+      <div *ngFor="let day of forecast.forecast.forecastday" class="forecast-day">
+        <div class="day-info">
+          <p>Date: {{ day.date }}</p>
+          <p>High: {{ day.day.maxtemp_c }}°C</p>
+          <p>Low: {{ day.day.mintemp_c }}°C</p>
+          <p>Condition: {{ day.day.condition.text }}</p>
+        </div>
+        <img class="weather-icon" [src]="day.day.condition.icon" alt="Weather Icon">
+      </div>
+    </div>
+  </div>
+  

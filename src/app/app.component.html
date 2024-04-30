@@ -1,0 +1,22 @@
+<div class="container">
+  <h1 class="text-center headertext">Weather App</h1>
+  <div class="container">
+    <app-search (searchLocation)="searchLocation($event)"></app-search>
+    <app-current-weather [weather]="currentWeather" [searchedLocation]="searchedLocation"></app-current-weather>
+    <app-forecast [forecast]="forecast"></app-forecast>
+  </div>
+
+  <div class="footer text-center mt-5">
+    <p class="text-center lead">Created by Bishal Sarma</p>
+    <div class="vintage-circle">
+      <img src="../assets/images/logo1.png" alt="VintageCircle Logo" class="logo">
+      <p class="text-center vintagetext"><span class="bold-text">VANTAGE</span>CIRCLE</p>
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+<!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,10 @@
+<div *ngIf="weather" class="current-weather-container">
+   <h2>Current Weather: {{ searchedLocation }}</h2>
+    <div class="weather-info">
+      <p class="weather-data"><span>Temperature:</span> {{ weather.current.temp_c }}°C</p>
+      <p class="weather-data"><span>Wind Speed:</span> {{ weather.current.wind_kph }} km/h</p>
+      <p class="weather-data"><span>Humidity:</span> {{ weather.current.humidity }}%</p>
+      <img class="weather-icon" [src]="weather.current.condition.icon" alt="Weather Icon">
+    </div>
+  </div>
+  

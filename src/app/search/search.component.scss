@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap';
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+    input {
+      flex: 1;
+      margin-right: 5px;
+    }
+  
+    button {
+      min-width: 50px;
+    }
+  }
+  

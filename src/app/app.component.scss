@@ -1,0 +1,56 @@
+@import '~bootstrap/scss/bootstrap';
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.current-weather-container, .forecast-container {
+  margin-bottom: 30px;
+}
+
+.forecast-container img, .current-weather-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+.lead{
+    font-family: 'poppins', sans-serif;
+}
+
+.vintage-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headertext{
+    font-family: 'poppins', sans-serif;
+}
+.vintagetext{
+    
+    position: relative;
+    top: 5px;
+    font-size:20px;
+    right: 5px;
+    color: rgba(0, 0, 139, 0.63);
+    font-family: 'poppins', sans-serif;
+
+  }
+
+.logo {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+}
