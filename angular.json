@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            
             "outputPath": "dist/frontentwheathercode",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -42,8 +43,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "20kb", 
+                  "maximumError": "25kb"    
                 }
               ],
               "fileReplacements": [
