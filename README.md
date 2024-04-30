@@ -2,6 +2,10 @@
 
 This is a simple weather application built with Angular that allows users to search for the current weather and forecast for a location.
 
+## Demo
+
+to view the webisite https://663126d5f014ac0c30c4c2ff--vintageweatherbishal.netlify.app/
+
 # Setup
 
 To run this project locally, follow these steps:
